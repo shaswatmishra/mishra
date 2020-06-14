@@ -1,0 +1,52 @@
+
+
+.abc {
+    background-color:#333;
+    padding: 8rem;
+    margin: 0;
+}
+.footer-link
+{
+    padding: 2rem;
+    color: white;
+}
+.contact{
+
+    text-align: center;
+}
+.intro
+{
+    border-top: 1px solid grey;
+    color:grey;
+    font-size: 2rem;
+    left: 2rem;
+    display: inline-block;
+}
+.side{
+    left: 3rem;
+}
+.shaswat{
+    color: white;
+}
+
+.shaswat:hover{
+    transform: translateX(-5px);
+}
+.follow{
+   
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: Lato;
+    padding-left: 4rem;
+    text-transform: uppercase;
+}
+.feedback
+{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.heading-secondary
+{
+    text-align: center;
+}
