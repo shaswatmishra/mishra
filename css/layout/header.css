@@ -1,0 +1,184 @@
+.header
+{
+    height: 95vh;
+    background-image: linear-gradient(to right ,#292e2ed3,transparent), url(temp2.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    position: relative;
+    
+    
+}
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading-primary
+{
+color: #fff;
+text-transform: uppercase;
+}
+.heading-primary-main
+
+{
+display: block;
+font-size: 6rem;
+
+letter-spacing: 3.5rem;
+
+}
+@media (max-width:600px)
+{   
+    .heading-primary-main
+
+{
+  letter-spacing: 1.5rem;
+    font-size: 4rem;
+}
+}
+.heading-primary-sub
+{
+display: block;
+font-size: 2rem;
+font-weight: 400;
+letter-spacing: 1.6rem;
+
+}
+@media (max-width:600px)
+{   
+    .heading-primary-sub
+
+{
+    letter-spacing:1rem ;
+    font-size: 3rem;
+}
+}
+
+.first{
+  
+    margin: auto;
+    text-align: center;
+    margin-left: 250px;
+   
+}
+@media (max-width :600px)
+{
+    .first{
+  
+        margin: auto;
+        text-align: center;
+       
+       
+    }
+}
+.profile{
+    font-size: 5.5rem;
+    font-weight: 300;
+    color: #22A39F;
+   text-align: center;
+    
+}
+.details
+{
+    text-align: center;
+}
+.about-me{
+    font-size: 4rem;
+    font-weight: 300;
+    color: #22A39F;
+}
+.edu{
+    color: #22A39F; 
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.name{
+    color: #434242;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.mishra{
+    padding-left: 0.5rem;
+}
+.about{
+    font-size: 1.6rem;
+   
+    color: #434242;
+}
+.jiit{
+    padding: 1rem;
+}
+.photo{
+    width: 80%;
+    height: 30%%;
+    border-radius: 100%;
+    text-align:center;
+}
+.main2{
+    width: 100%;
+    
+    background-color: antiquewhite;
+}
+.experience{
+    font-size: 5rem;
+}
+.protons{
+    font-size: 2.5rem;
+}
+.photos
+{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-left: 7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 7rem;
+ 
+  filter: grayscale(100%);
+}
+.photos:hover{
+   
+    filter: grayscale(0%);
+    transition: 0.001s;
+
+   
+}
+.ab{
+   padding-top: 3rem;
+   font-size: 5rem;
+}
+.location{
+    color: #22A39F;   
+}
+.space{
+    padding: 0.5rem;
+}
+.checked {
+    color: #22A39F;
+  }
+.star{
+    text-align: end;
+    font-size: 1.3rem;
+   float:right;
+}
+.main2
+{
+    margin-top: 5rem;
+}
+.benj{
+    padding: 3rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.contact{
+    color: white;
+    font-size: 54px;
+    font-weight: 300;
+}
+.social{
+    text-align: center;
+    overflow: hidden;
+}
