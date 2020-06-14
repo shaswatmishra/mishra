@@ -1,0 +1,28 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: 
+
+*/
+
+
+
+
+
+
+@import "base/typo.css";
+@import "base/main.css";
+
+
+
+@import "layout/header.css";
+
+
+
+
+html{
+    font-size: 62.5%;}
+
+  
