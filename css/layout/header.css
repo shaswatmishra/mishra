@@ -61,7 +61,7 @@ letter-spacing: 1.6rem;
     margin: auto;
     text-align: center;
     margin-left: 250px;
-   
+
 }
 @media (max-width :600px)
 {
@@ -105,7 +105,7 @@ letter-spacing: 1.6rem;
 }
 .about{
     font-size: 1.6rem;
-   
+   text-align: center;
     color: #434242;
 }
 .jiit{
@@ -130,10 +130,10 @@ letter-spacing: 1.6rem;
 }
 .photos
 {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+ 
   margin: auto;
-  padding-left: 7rem;
+
   padding-top: 1.5rem;
   padding-bottom: 7rem;
  
@@ -181,4 +181,28 @@ letter-spacing: 1.6rem;
 .social{
     text-align: center;
     overflow: hidden;
+}
+.project-text{
+    color: #22A39F;
+    display: inline-block;
+    padding: 10px;
+}
+.linkedin{
+    color: #0e76a8;
+}
+.linkedin:hover {
+    color: #fff;
+}
+
+.whatsapp{
+ color:    #075e54;
+}
+.whatsapp:hover{
+    color:    #fff;
+   }
+.email{
+    color: #D44638;
+}
+.email:hover{
+    color: #fff;
 }
